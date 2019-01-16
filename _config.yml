@@ -1,0 +1,53 @@
+
+# html lang
+# language: 
+
+# main menu navigation
+menu:
+  # Home: /
+  Archives: /archives
+  # About: /about
+  # Contact: /contact
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/sally.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/sally.js
+
+favicon: favicon.png
+
+avatar: avatar.png
+
+since: 2019
+
+social:
+  Github: https://github.com/Tony5t4rk
+  知乎: https://www.zhihu.com/people/ru-guo-you-meng-49
+  Email: mailto:tony5t4rk@qq.com
+  CSDN: https://blog.csdn.net/Tony5t4rk
+
+friend:
+  jizhideqingwa: https://blog.csdn.net/henu_jizhideqingwa
+  yh: https://blog.csdn.net/henuyh
+  lusquare: http://www.lusquare.top/
+  ordinarv: https://blog.csdn.net/ordinarv
+  raindecloud: http://raindecloud.top/
+  cyt: http://47.106.254.106/
+  zmin: https://euzmin.github.io/
+  mmc: https://blog.csdn.net/qq_41199327
+  wxj: https://blog.csdn.net/qq_40482358
+  # Menci: https://oi.men.ci/
+  # im0qianqian: https://www.dreamwings.cn/
+  # kuangbin: https://kuangbin.github.io/
+  # tokitsukaze: http://tokitsukaze.live/
+  # CSL: cubercsl.cn
+
+# Math Equations Render Support
+mathjax:
+  enable: true
+  per_page: false
+  #cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+  cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML

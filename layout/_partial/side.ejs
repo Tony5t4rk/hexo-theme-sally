@@ -1,0 +1,34 @@
+<div id="side">
+  <div id="search">
+    <img id="search-logo" src="<%- theme.root_url %>/img/search.png">
+    <input type="text" id="search-input" placeholder=" search">
+  </div>
+
+  <div id="author-info">
+    <img id="info-logo" src="<%- theme.root_url %>/img/<%- theme.avatar %>">
+    <p id="info-author"><%= config.author %></p>
+    <div id="social">
+      <% for (name in theme.social) { %>
+        <div class="social-item">
+          <a href="<%- url_for(theme.social[name]) %>" class="social-item-link">
+            <img class="social-img" src="<%- theme.root_url %>/img/<%= name %>.png">
+            <p class="social-item-name"><%= name %></p>
+          </a>
+        </div>
+      <% } %>
+    </div>
+  </div>
+
+  <div id="friend">
+    <% for (name in theme.friend) { %>
+      <div class="friend-item">
+        <a href="<%- url_for(theme.friend[name]) %>" class="friend-item-link">
+          <p class="friend-item-name"><%= name %></p>
+        </a>
+      </div>
+    <% } %>
+  </div>
+
+  <div id="site-info">
+  </div>
+</div>
